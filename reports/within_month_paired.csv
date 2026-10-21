@@ -1,0 +1,121 @@
+task,subset,condition,candidate,reference,auc_diff,lo,hi,ci_excludes_zero
+AD/MCI vs HC,all ages,all pairs,speech,age only,0.097,0.066,0.129,True
+AD/MCI vs HC,all ages,all pairs,speech,all metadata,0.067,0.036,0.096,True
+AD/MCI vs HC,all ages,all pairs,speech + all metadata,age only,0.109,0.08,0.138,True
+AD/MCI vs HC,all ages,all pairs,speech + all metadata,all metadata,0.079,0.051,0.106,True
+AD/MCI vs HC,all ages,all pairs,speech (age/sex removed),age only,0.047,0.008,0.086,True
+AD/MCI vs HC,all ages,all pairs,speech (age/sex removed),all metadata,0.017,-0.022,0.055,False
+AD/MCI vs HC,all ages,same month,speech,age only,0.074,0.027,0.123,True
+AD/MCI vs HC,all ages,same month,speech,all metadata,0.056,0.012,0.101,True
+AD/MCI vs HC,all ages,same month,speech + all metadata,age only,0.084,0.04,0.132,True
+AD/MCI vs HC,all ages,same month,speech + all metadata,all metadata,0.066,0.025,0.11,True
+AD/MCI vs HC,all ages,same month,speech (age/sex removed),age only,0.013,-0.047,0.077,False
+AD/MCI vs HC,all ages,same month,speech (age/sex removed),all metadata,-0.005,-0.064,0.056,False
+AD/MCI vs HC,all ages,same 14-day window,speech,age only,0.09,0.039,0.149,True
+AD/MCI vs HC,all ages,same 14-day window,speech,all metadata,0.066,0.014,0.122,True
+AD/MCI vs HC,all ages,same 14-day window,speech + all metadata,age only,0.099,0.05,0.157,True
+AD/MCI vs HC,all ages,same 14-day window,speech + all metadata,all metadata,0.075,0.028,0.129,True
+AD/MCI vs HC,all ages,same 14-day window,speech (age/sex removed),age only,0.036,-0.03,0.109,False
+AD/MCI vs HC,all ages,same 14-day window,speech (age/sex removed),all metadata,0.012,-0.056,0.08,False
+AD/MCI vs HC,all ages,age within 5y,speech,age only,0.319,0.285,0.35,True
+AD/MCI vs HC,all ages,age within 5y,speech,all metadata,0.209,0.158,0.263,True
+AD/MCI vs HC,all ages,age within 5y,speech + all metadata,age only,0.33,0.298,0.358,True
+AD/MCI vs HC,all ages,age within 5y,speech + all metadata,all metadata,0.221,0.173,0.272,True
+AD/MCI vs HC,all ages,age within 5y,speech (age/sex removed),age only,0.319,0.285,0.349,True
+AD/MCI vs HC,all ages,age within 5y,speech (age/sex removed),all metadata,0.209,0.159,0.265,True
+AD/MCI vs HC,all ages,same month + age within 5y,speech,age only,0.273,0.203,0.338,True
+AD/MCI vs HC,all ages,same month + age within 5y,speech,all metadata,0.221,0.145,0.305,True
+AD/MCI vs HC,all ages,same month + age within 5y,speech + all metadata,age only,0.286,0.217,0.352,True
+AD/MCI vs HC,all ages,same month + age within 5y,speech + all metadata,all metadata,0.234,0.162,0.313,True
+AD/MCI vs HC,all ages,same month + age within 5y,speech (age/sex removed),age only,0.269,0.195,0.335,True
+AD/MCI vs HC,all ages,same month + age within 5y,speech (age/sex removed),all metadata,0.217,0.142,0.298,True
+AD/MCI vs HC,aged 70+,all pairs,speech,age only,0.271,0.211,0.327,True
+AD/MCI vs HC,aged 70+,all pairs,speech,all metadata,0.177,0.123,0.231,True
+AD/MCI vs HC,aged 70+,all pairs,speech + all metadata,age only,0.285,0.226,0.34,True
+AD/MCI vs HC,aged 70+,all pairs,speech + all metadata,all metadata,0.191,0.14,0.242,True
+AD/MCI vs HC,aged 70+,all pairs,speech (age/sex removed),age only,0.267,0.203,0.326,True
+AD/MCI vs HC,aged 70+,all pairs,speech (age/sex removed),all metadata,0.173,0.118,0.231,True
+AD/MCI vs HC,aged 70+,same month,speech,age only,0.213,0.134,0.286,True
+AD/MCI vs HC,aged 70+,same month,speech,all metadata,0.159,0.084,0.232,True
+AD/MCI vs HC,aged 70+,same month,speech + all metadata,age only,0.225,0.149,0.296,True
+AD/MCI vs HC,aged 70+,same month,speech + all metadata,all metadata,0.171,0.104,0.241,True
+AD/MCI vs HC,aged 70+,same month,speech (age/sex removed),age only,0.206,0.126,0.289,True
+AD/MCI vs HC,aged 70+,same month,speech (age/sex removed),all metadata,0.152,0.076,0.232,True
+AD/MCI vs HC,aged 70+,same 14-day window,speech,age only,0.239,0.141,0.331,True
+AD/MCI vs HC,aged 70+,same 14-day window,speech,all metadata,0.185,0.087,0.278,True
+AD/MCI vs HC,aged 70+,same 14-day window,speech + all metadata,age only,0.251,0.151,0.345,True
+AD/MCI vs HC,aged 70+,same 14-day window,speech + all metadata,all metadata,0.197,0.105,0.287,True
+AD/MCI vs HC,aged 70+,same 14-day window,speech (age/sex removed),age only,0.24,0.125,0.341,True
+AD/MCI vs HC,aged 70+,same 14-day window,speech (age/sex removed),all metadata,0.185,0.083,0.288,True
+AD/MCI vs HC,aged 70+,age within 5y,speech,age only,0.359,0.31,0.405,True
+AD/MCI vs HC,aged 70+,age within 5y,speech,all metadata,0.199,0.151,0.255,True
+AD/MCI vs HC,aged 70+,age within 5y,speech + all metadata,age only,0.372,0.325,0.417,True
+AD/MCI vs HC,aged 70+,age within 5y,speech + all metadata,all metadata,0.212,0.165,0.266,True
+AD/MCI vs HC,aged 70+,age within 5y,speech (age/sex removed),age only,0.363,0.314,0.414,True
+AD/MCI vs HC,aged 70+,age within 5y,speech (age/sex removed),all metadata,0.203,0.155,0.257,True
+AD/MCI vs HC,aged 70+,same month + age within 5y,speech,age only,0.307,0.219,0.391,True
+AD/MCI vs HC,aged 70+,same month + age within 5y,speech,all metadata,0.218,0.133,0.302,True
+AD/MCI vs HC,aged 70+,same month + age within 5y,speech + all metadata,age only,0.322,0.236,0.402,True
+AD/MCI vs HC,aged 70+,same month + age within 5y,speech + all metadata,all metadata,0.233,0.156,0.317,True
+AD/MCI vs HC,aged 70+,same month + age within 5y,speech (age/sex removed),age only,0.309,0.224,0.39,True
+AD/MCI vs HC,aged 70+,same month + age within 5y,speech (age/sex removed),all metadata,0.22,0.134,0.305,True
+PD vs HC,all ages,all pairs,speech,age only,0.335,0.279,0.387,True
+PD vs HC,all ages,all pairs,speech,all metadata,0.193,0.154,0.234,True
+PD vs HC,all ages,all pairs,speech + all metadata,age only,0.339,0.282,0.39,True
+PD vs HC,all ages,all pairs,speech + all metadata,all metadata,0.196,0.157,0.236,True
+PD vs HC,all ages,all pairs,speech (age/sex removed),age only,0.314,0.254,0.367,True
+PD vs HC,all ages,all pairs,speech (age/sex removed),all metadata,0.171,0.126,0.217,True
+PD vs HC,all ages,same month,speech,age only,0.389,0.324,0.447,True
+PD vs HC,all ages,same month,speech,all metadata,0.2,0.153,0.247,True
+PD vs HC,all ages,same month,speech + all metadata,age only,0.391,0.328,0.447,True
+PD vs HC,all ages,same month,speech + all metadata,all metadata,0.203,0.158,0.248,True
+PD vs HC,all ages,same month,speech (age/sex removed),age only,0.371,0.304,0.432,True
+PD vs HC,all ages,same month,speech (age/sex removed),all metadata,0.183,0.131,0.24,True
+PD vs HC,all ages,same 14-day window,speech,age only,0.389,0.324,0.448,True
+PD vs HC,all ages,same 14-day window,speech,all metadata,0.194,0.144,0.248,True
+PD vs HC,all ages,same 14-day window,speech + all metadata,age only,0.393,0.33,0.453,True
+PD vs HC,all ages,same 14-day window,speech + all metadata,all metadata,0.198,0.148,0.252,True
+PD vs HC,all ages,same 14-day window,speech (age/sex removed),age only,0.371,0.302,0.434,True
+PD vs HC,all ages,same 14-day window,speech (age/sex removed),all metadata,0.176,0.119,0.235,True
+PD vs HC,all ages,age within 5y,speech,age only,0.406,0.373,0.437,True
+PD vs HC,all ages,age within 5y,speech,all metadata,0.192,0.15,0.233,True
+PD vs HC,all ages,age within 5y,speech + all metadata,age only,0.409,0.376,0.439,True
+PD vs HC,all ages,age within 5y,speech + all metadata,all metadata,0.195,0.153,0.237,True
+PD vs HC,all ages,age within 5y,speech (age/sex removed),age only,0.383,0.345,0.417,True
+PD vs HC,all ages,age within 5y,speech (age/sex removed),all metadata,0.168,0.119,0.216,True
+PD vs HC,all ages,same month + age within 5y,speech,age only,0.415,0.357,0.469,True
+PD vs HC,all ages,same month + age within 5y,speech,all metadata,0.197,0.148,0.248,True
+PD vs HC,all ages,same month + age within 5y,speech + all metadata,age only,0.421,0.365,0.474,True
+PD vs HC,all ages,same month + age within 5y,speech + all metadata,all metadata,0.203,0.154,0.254,True
+PD vs HC,all ages,same month + age within 5y,speech (age/sex removed),age only,0.386,0.328,0.442,True
+PD vs HC,all ages,same month + age within 5y,speech (age/sex removed),all metadata,0.168,0.11,0.23,True
+PD vs HC,aged 70+,all pairs,speech,age only,0.42,0.333,0.505,True
+PD vs HC,aged 70+,all pairs,speech,all metadata,0.169,0.114,0.228,True
+PD vs HC,aged 70+,all pairs,speech + all metadata,age only,0.431,0.344,0.515,True
+PD vs HC,aged 70+,all pairs,speech + all metadata,all metadata,0.18,0.126,0.237,True
+PD vs HC,aged 70+,all pairs,speech (age/sex removed),age only,0.412,0.324,0.495,True
+PD vs HC,aged 70+,all pairs,speech (age/sex removed),all metadata,0.161,0.097,0.228,True
+PD vs HC,aged 70+,same month,speech,age only,0.447,0.3,0.558,True
+PD vs HC,aged 70+,same month,speech,all metadata,0.168,0.081,0.253,True
+PD vs HC,aged 70+,same month,speech + all metadata,age only,0.462,0.312,0.571,True
+PD vs HC,aged 70+,same month,speech + all metadata,all metadata,0.183,0.094,0.277,True
+PD vs HC,aged 70+,same month,speech (age/sex removed),age only,0.462,0.309,0.575,True
+PD vs HC,aged 70+,same month,speech (age/sex removed),all metadata,0.183,0.095,0.28,True
+PD vs HC,aged 70+,same 14-day window,speech,age only,0.412,0.242,0.55,True
+PD vs HC,aged 70+,same 14-day window,speech,all metadata,0.173,0.071,0.276,True
+PD vs HC,aged 70+,same 14-day window,speech + all metadata,age only,0.426,0.267,0.559,True
+PD vs HC,aged 70+,same 14-day window,speech + all metadata,all metadata,0.186,0.085,0.295,True
+PD vs HC,aged 70+,same 14-day window,speech (age/sex removed),age only,0.424,0.262,0.565,True
+PD vs HC,aged 70+,same 14-day window,speech (age/sex removed),all metadata,0.185,0.085,0.294,True
+PD vs HC,aged 70+,age within 5y,speech,age only,0.463,0.385,0.529,True
+PD vs HC,aged 70+,age within 5y,speech,all metadata,0.17,0.115,0.226,True
+PD vs HC,aged 70+,age within 5y,speech + all metadata,age only,0.471,0.394,0.535,True
+PD vs HC,aged 70+,age within 5y,speech + all metadata,all metadata,0.178,0.124,0.233,True
+PD vs HC,aged 70+,age within 5y,speech (age/sex removed),age only,0.455,0.377,0.521,True
+PD vs HC,aged 70+,age within 5y,speech (age/sex removed),all metadata,0.162,0.098,0.227,True
+PD vs HC,aged 70+,same month + age within 5y,speech,age only,0.432,0.279,0.544,True
+PD vs HC,aged 70+,same month + age within 5y,speech,all metadata,0.157,0.064,0.253,True
+PD vs HC,aged 70+,same month + age within 5y,speech + all metadata,age only,0.449,0.308,0.56,True
+PD vs HC,aged 70+,same month + age within 5y,speech + all metadata,all metadata,0.175,0.086,0.27,True
+PD vs HC,aged 70+,same month + age within 5y,speech (age/sex removed),age only,0.442,0.29,0.557,True
+PD vs HC,aged 70+,same month + age within 5y,speech (age/sex removed),all metadata,0.168,0.069,0.277,True
