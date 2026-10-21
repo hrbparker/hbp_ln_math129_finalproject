@@ -1,0 +1,53 @@
+subset,task,features,C,n_test,n_test_pos,auc,auc_lo,auc_hi,auc_age70plus,n_pos_70plus,avg_precision,sens_at_val90spec,test_specificity
+all speakers,AD/MCI vs HC,age only,0.001,295,30,0.854,0.792,0.907,0.687,26,0.354,0.5,0.902
+all speakers,AD/MCI vs HC,age+sex+edu,1.0,295,30,0.859,0.799,0.91,0.683,26,0.353,0.5,0.902
+all speakers,AD/MCI vs HC,all metadata,1.0,295,30,0.913,0.871,0.951,0.811,26,0.512,0.633,0.921
+all speakers,AD/MCI vs HC,speech: GeMAPS+NeuroSpeech,1.0,295,30,0.862,0.791,0.916,0.79,26,0.43,0.633,0.853
+all speakers,AD/MCI vs HC,speech: Trill,0.01,295,30,0.918,0.873,0.958,0.885,26,0.626,0.7,0.883
+all speakers,AD/MCI vs HC,speech: all,0.01,295,30,0.912,0.863,0.951,0.866,26,0.545,0.8,0.875
+all speakers,AD/MCI vs HC,speech + age/sex/edu,0.1,295,30,0.905,0.861,0.943,0.847,26,0.476,0.633,0.887
+all speakers,AD/MCI vs HC,speech + all metadata,1.0,295,30,0.916,0.879,0.951,0.869,26,0.525,0.633,0.902
+all speakers,AD/MCI vs HC,speech (age/sex removed),0.001,295,30,0.878,0.818,0.933,0.902,26,0.483,0.733,0.872
+all speakers,AD/MCI vs HC,task: phonation,0.001,295,30,0.803,0.724,0.871,0.743,26,0.299,0.533,0.815
+all speakers,AD/MCI vs HC,task: pataka,0.001,295,30,0.849,0.786,0.909,0.792,26,0.42,0.567,0.879
+all speakers,AD/MCI vs HC,task: picture,0.1,295,30,0.839,0.755,0.91,0.777,26,0.379,0.567,0.928
+all speakers,AD/MCI vs HC,task: naming,0.1,295,30,0.898,0.834,0.95,0.836,26,0.621,0.567,0.925
+all speakers,PD vs HC,age only,0.001,300,35,0.584,0.497,0.668,0.35,15,0.133,0.057,0.902
+all speakers,PD vs HC,age+sex+edu,1.0,300,35,0.68,0.585,0.759,0.587,15,0.182,0.114,0.913
+all speakers,PD vs HC,all metadata,0.001,300,35,0.721,0.63,0.805,0.703,15,0.233,0.229,0.943
+all speakers,PD vs HC,speech: GeMAPS+NeuroSpeech,0.01,300,35,0.858,0.796,0.914,0.791,15,0.382,0.486,0.902
+all speakers,PD vs HC,speech: Trill,0.01,300,35,0.891,0.835,0.937,0.798,15,0.576,0.657,0.879
+all speakers,PD vs HC,speech: all,0.001,300,35,0.903,0.847,0.948,0.818,15,0.588,0.657,0.906
+all speakers,PD vs HC,speech + age/sex/edu,0.001,300,35,0.903,0.85,0.948,0.817,15,0.587,0.657,0.906
+all speakers,PD vs HC,speech + all metadata,0.01,300,35,0.906,0.856,0.95,0.83,15,0.568,0.686,0.898
+all speakers,PD vs HC,speech (age/sex removed),0.001,300,35,0.838,0.768,0.902,0.781,15,0.486,0.6,0.898
+all speakers,PD vs HC,task: phonation,0.1,300,35,0.699,0.609,0.784,0.713,15,0.198,0.229,0.913
+all speakers,PD vs HC,task: pataka,1.0,300,35,0.693,0.606,0.771,0.737,15,0.207,0.171,0.917
+all speakers,PD vs HC,task: picture,1.0,300,35,0.807,0.732,0.866,0.662,15,0.4,0.4,0.891
+all speakers,PD vs HC,task: naming,1.0,300,35,0.845,0.798,0.899,0.766,15,0.326,0.371,0.909
+audio subset,AD/MCI vs HC,age only,0.001,182,9,0.946,0.9,0.981,0.85,9,0.372,0.667,0.942
+audio subset,AD/MCI vs HC,age+sex+edu,0.001,182,9,0.899,0.816,0.966,0.742,9,0.359,0.778,0.855
+audio subset,AD/MCI vs HC,all metadata,1.0,182,9,0.932,0.884,0.977,0.81,9,0.385,0.667,0.879
+audio subset,AD/MCI vs HC,speech: GeMAPS+NeuroSpeech,0.001,182,9,0.986,0.955,1.0,0.964,9,0.901,0.889,0.896
+audio subset,AD/MCI vs HC,speech: Trill,0.01,182,9,0.921,0.759,0.997,0.891,9,0.592,0.778,0.965
+audio subset,AD/MCI vs HC,speech: all,0.001,182,9,0.976,0.938,1.0,0.95,9,0.766,0.889,0.96
+audio subset,AD/MCI vs HC,speech + age/sex/edu,0.001,182,9,0.978,0.942,1.0,0.952,9,0.767,0.889,0.954
+audio subset,AD/MCI vs HC,speech + all metadata,0.001,182,9,0.978,0.94,1.0,0.952,9,0.767,0.889,0.96
+audio subset,AD/MCI vs HC,speech (age/sex removed),0.001,182,9,0.912,0.753,0.998,0.918,9,0.684,0.778,0.948
+audio subset,AD/MCI vs HC,task: phonation,0.01,182,9,0.632,0.384,0.862,0.6,9,0.128,0.444,0.855
+audio subset,AD/MCI vs HC,task: pataka,0.01,182,9,0.943,0.882,0.989,0.901,9,0.58,0.778,0.89
+audio subset,AD/MCI vs HC,task: picture,0.001,182,9,0.893,0.7,0.993,0.869,9,0.605,0.667,0.954
+audio subset,AD/MCI vs HC,task: naming,0.001,182,9,0.959,0.882,1.0,0.914,9,0.774,0.889,0.908
+audio subset,PD vs HC,age only,0.001,192,19,0.571,0.442,0.704,0.381,10,0.12,0.053,0.942
+audio subset,PD vs HC,age+sex+edu,1.0,192,19,0.67,0.54,0.789,0.515,10,0.161,0.105,0.913
+audio subset,PD vs HC,all metadata,0.1,192,19,0.726,0.599,0.841,0.663,10,0.228,0.158,0.965
+audio subset,PD vs HC,speech: GeMAPS+NeuroSpeech,0.01,192,19,0.828,0.723,0.925,0.798,10,0.392,0.526,0.919
+audio subset,PD vs HC,speech: Trill,0.001,192,19,0.786,0.677,0.883,0.726,10,0.266,0.368,0.908
+audio subset,PD vs HC,speech: all,0.01,192,19,0.841,0.754,0.919,0.794,10,0.401,0.632,0.931
+audio subset,PD vs HC,speech + age/sex/edu,0.01,192,19,0.846,0.737,0.925,0.802,10,0.408,0.632,0.919
+audio subset,PD vs HC,speech + all metadata,0.01,192,19,0.848,0.752,0.927,0.803,10,0.409,0.632,0.931
+audio subset,PD vs HC,speech (age/sex removed),0.001,192,19,0.746,0.622,0.862,0.765,10,0.341,0.474,0.936
+audio subset,PD vs HC,task: phonation,0.01,192,19,0.814,0.718,0.891,0.771,10,0.255,0.474,0.89
+audio subset,PD vs HC,task: pataka,0.001,192,19,0.677,0.522,0.805,0.695,10,0.173,0.158,0.908
+audio subset,PD vs HC,task: picture,0.01,192,19,0.767,0.654,0.859,0.721,10,0.234,0.105,0.936
+audio subset,PD vs HC,task: naming,1.0,192,19,0.753,0.647,0.851,0.752,10,0.214,0.316,0.861

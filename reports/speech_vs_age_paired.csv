@@ -1,0 +1,9 @@
+subset,task,candidate,reference,auc_diff,diff_lo,diff_hi,ci_excludes_zero
+all speakers,AD/MCI vs HC,speech + age/sex/edu,age+sex+edu,0.046,-0.01,0.097,False
+all speakers,AD/MCI vs HC,speech + all metadata,all metadata,0.004,-0.044,0.05,False
+all speakers,PD vs HC,speech + age/sex/edu,age+sex+edu,0.223,0.138,0.317,True
+all speakers,PD vs HC,speech + all metadata,all metadata,0.185,0.089,0.286,True
+audio subset,AD/MCI vs HC,speech + age/sex/edu,age+sex+edu,0.079,0.006,0.172,True
+audio subset,AD/MCI vs HC,speech + all metadata,all metadata,0.046,-0.014,0.104,False
+audio subset,PD vs HC,speech + age/sex/edu,age+sex+edu,0.176,0.057,0.307,True
+audio subset,PD vs HC,speech + all metadata,all metadata,0.122,-0.003,0.255,False
