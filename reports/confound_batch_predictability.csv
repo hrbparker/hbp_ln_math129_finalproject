@@ -1,0 +1,4 @@
+target,n_healthy,score
+age (R^2),1321,0.419
+recording date (R^2),1323,0.378
+LOW_QUALITY flag (AUC),1323,0.705

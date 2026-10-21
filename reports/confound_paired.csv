@@ -1,0 +1,11 @@
+task,candidate,reference,auc_diff,lo,hi,ci_excludes_zero
+AD/MCI vs HC,speech + all metadata,all metadata,0.08,0.051,0.109,True
+AD/MCI vs HC,speech (age/sex removed),age only,0.05,0.011,0.09,True
+AD/MCI vs HC,speech (age/sex/month removed),age only,-0.017,-0.068,0.035,False
+AD/MCI vs HC (age 70+ only),speech (age/sex removed),age only,0.27,0.209,0.333,True
+AD/MCI vs HC (age 70+ only),speech (age/sex/month removed),age only,0.208,0.136,0.283,True
+PD vs HC,speech + all metadata,all metadata,0.196,0.157,0.235,True
+PD vs HC,speech (age/sex removed),age only,0.314,0.259,0.367,True
+PD vs HC,speech (age/sex/month removed),age only,0.283,0.222,0.337,True
+PD vs HC (age 70+ only),speech (age/sex removed),age only,0.41,0.323,0.494,True
+PD vs HC (age 70+ only),speech (age/sex/month removed),age only,0.384,0.283,0.483,True

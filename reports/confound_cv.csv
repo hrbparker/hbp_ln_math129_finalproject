@@ -1,0 +1,13 @@
+task,features,n,n_pos,auc_mean_over_repeats,auc_sd_over_repeats,auc_boot_lo,auc_boot_hi,n_70plus,n_pos_70plus,auc_70plus,auc_70plus_lo,auc_70plus_hi
+AD/MCI vs HC,age only,1472,149,0.841,0.0,0.813,0.865,590,135,0.633,0.579,0.689
+AD/MCI vs HC,all metadata,1472,149,0.87,0.001,0.847,0.895,590,135,0.728,0.68,0.772
+AD/MCI vs HC,speech,1472,149,0.935,0.004,0.92,0.956,590,135,0.906,0.874,0.933
+AD/MCI vs HC,speech + all metadata,1472,149,0.946,0.003,0.933,0.964,590,135,0.919,0.888,0.944
+AD/MCI vs HC,speech (age/sex removed),1472,149,0.883,0.003,0.864,0.914,590,135,0.903,0.873,0.926
+AD/MCI vs HC,speech (age/sex/month removed),1472,149,0.814,0.005,0.784,0.861,590,135,0.841,0.797,0.879
+PD vs HC,age only,1498,175,0.568,0.002,0.523,0.612,533,78,0.475,0.4,0.553
+PD vs HC,all metadata,1498,175,0.706,0.003,0.669,0.751,533,78,0.72,0.657,0.776
+PD vs HC,speech,1498,175,0.895,0.006,0.875,0.927,533,78,0.892,0.845,0.931
+PD vs HC,speech + all metadata,1498,175,0.898,0.006,0.878,0.929,533,78,0.903,0.858,0.942
+PD vs HC,speech (age/sex removed),1498,175,0.872,0.007,0.849,0.909,533,78,0.885,0.839,0.928
+PD vs HC,speech (age/sex/month removed),1498,175,0.84,0.008,0.814,0.885,533,78,0.859,0.804,0.906

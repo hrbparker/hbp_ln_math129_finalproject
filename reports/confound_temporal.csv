@@ -1,0 +1,9 @@
+task,features,n_train,n_test,pos_train,pos_test,auc,lo,hi
+AD/MCI vs HC,age only,1380,92,117,32,0.932,0.877,0.975
+AD/MCI vs HC,all metadata,1380,92,117,32,0.93,0.867,0.98
+AD/MCI vs HC,speech,1380,92,117,32,0.905,0.816,0.972
+AD/MCI vs HC,speech (age/sex removed),1380,92,117,32,0.808,0.706,0.908
+PD vs HC,age only,1417,81,154,21,0.863,0.766,0.947
+PD vs HC,all metadata,1417,81,154,21,0.69,0.562,0.815
+PD vs HC,speech,1417,81,154,21,0.69,0.541,0.849
+PD vs HC,speech (age/sex removed),1417,81,154,21,0.637,0.487,0.788
