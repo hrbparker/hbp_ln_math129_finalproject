@@ -1,0 +1,23 @@
+\begin{table}[t]
+\centering
+\small
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lllrcc}
+\toprule
+Task & Candidate & Reference & AUC diff. & 95\% CI & CI excl. 0 \\
+\midrule
+AD/MCI vs. healthy & speech + all metadata & all metadata & +0.080 & [0.05, 0.11] & yes \\
+AD/MCI vs. healthy & speech (age/sex removed) & age only & +0.050 & [0.01, 0.09] & yes \\
+AD/MCI vs. healthy & speech (age/sex/month removed) & age only & -0.017 & [-0.07, 0.04] & no \\
+AD/MCI vs. healthy (70+) & speech (age/sex removed) & age only & +0.270 & [0.21, 0.33] & yes \\
+AD/MCI vs. healthy (70+) & speech (age/sex/month removed) & age only & +0.208 & [0.14, 0.28] & yes \\
+Parkinson's vs. healthy & speech + all metadata & all metadata & +0.196 & [0.16, 0.23] & yes \\
+Parkinson's vs. healthy & speech (age/sex removed) & age only & +0.314 & [0.26, 0.37] & yes \\
+Parkinson's vs. healthy & speech (age/sex/month removed) & age only & +0.283 & [0.22, 0.34] & yes \\
+Parkinson's vs. healthy (70+) & speech (age/sex removed) & age only & +0.410 & [0.32, 0.49] & yes \\
+Parkinson's vs. healthy (70+) & speech (age/sex/month removed) & age only & +0.384 & [0.28, 0.48] & yes \\
+\bottomrule
+\end{tabular}}
+\caption{Paired AUC differences on the same out-of-fold scores (bootstrap over speakers).}
+\label{tab:paired}
+\end{table}

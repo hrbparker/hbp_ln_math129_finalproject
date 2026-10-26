@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\small
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrr}
+\toprule
+Predicted from speech & Healthy speakers & Score \\
+\midrule
+age ($R^2$) & 1321 & 0.42 \\
+recording date ($R^2$) & 1323 & 0.38 \\
+LOW\_QUALITY flag (AUC) & 1323 & 0.70 \\
+\bottomrule
+\end{tabular}}
+\caption{Can speech features predict recording circumstances? Healthy speakers only, 5-fold CV. R$^2$ of 0 and AUC of 0.5 mean no information.}
+\label{tab:batch}
+\end{table}

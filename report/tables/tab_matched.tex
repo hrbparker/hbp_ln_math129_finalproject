@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\small
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lllrrrr}
+\toprule
+Task & Pairs & \#pairs & age only & all metadata & speech & speech + all metadata \\
+\midrule
+AD/MCI vs. healthy & all pairs & 197,127 & 0.840 [0.81, 0.87] & 0.870 [0.84, 0.90] & 0.937 [0.92, 0.95] & 0.949 [0.93, 0.96] \\
+AD/MCI vs. healthy & same month + age within 5y & 1,750 & 0.622 [0.58, 0.68] & 0.674 [0.61, 0.74] & 0.895 [0.84, 0.94] & 0.908 [0.86, 0.95] \\
+Parkinson's vs. healthy & all pairs & 231,525 & 0.566 [0.52, 0.61] & 0.708 [0.67, 0.74] & 0.901 [0.87, 0.93] & 0.905 [0.88, 0.93] \\
+Parkinson's vs. healthy & same month + age within 5y & 2,886 & 0.497 [0.46, 0.54] & 0.715 [0.66, 0.76] & 0.912 [0.87, 0.94] & 0.919 [0.88, 0.95] \\
+\bottomrule
+\end{tabular}}
+\caption{Conditional AUC: the share of patient-control pairs, restricted as shown, in which the patient scores higher. Brackets: 95\% bootstrap CI over speakers.}
+\label{tab:matched}
+\end{table}

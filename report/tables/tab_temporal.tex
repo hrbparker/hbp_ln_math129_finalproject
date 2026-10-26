@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\small
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llrrc}
+\toprule
+Task & Features & Pos. train/test & AUC & 95\% CI \\
+\midrule
+AD/MCI vs. healthy & age only & 117/32 & 0.932 & [0.88, 0.97] \\
+AD/MCI vs. healthy & all metadata & 117/32 & 0.930 & [0.87, 0.98] \\
+AD/MCI vs. healthy & speech & 117/32 & 0.905 & [0.82, 0.97] \\
+AD/MCI vs. healthy & speech (age/sex removed) & 117/32 & 0.808 & [0.71, 0.91] \\
+Parkinson's vs. healthy & age only & 154/21 & 0.863 & [0.77, 0.95] \\
+Parkinson's vs. healthy & all metadata & 154/21 & 0.690 & [0.56, 0.81] \\
+Parkinson's vs. healthy & speech & 154/21 & 0.690 & [0.54, 0.85] \\
+Parkinson's vs. healthy & speech (age/sex removed) & 154/21 & 0.637 & [0.49, 0.79] \\
+\bottomrule
+\end{tabular}}
+\caption{Train on speakers recorded before 2023-01-01, test on speakers recorded on or after it. Small test sets: treat as exploratory.}
+\label{tab:temporal}
+\end{table}
