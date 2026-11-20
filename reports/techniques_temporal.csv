@@ -1,0 +1,13 @@
+task,technique,features,n_train,n_test,pos_train,pos_test,auc,lo,hi,diff_vs_L2,diff_lo,diff_hi
+AD/MCI vs HC,L2 logistic,speech,1380,92,117,32,0.905,0.812,0.969,,,
+AD/MCI vs HC,L1 logistic,speech,1380,92,117,32,0.927,0.848,0.977,0.022,-0.002,0.05
+AD/MCI vs HC,RBF SVM,speech,1380,92,117,32,0.896,0.812,0.953,-0.009,-0.072,0.052
+AD/MCI vs HC,L2 logistic,speech (age/sex removed),1380,92,117,32,0.808,0.691,0.892,,,
+AD/MCI vs HC,L1 logistic,speech (age/sex removed),1380,92,117,32,0.763,0.633,0.861,-0.045,-0.104,0.003
+AD/MCI vs HC,RBF SVM,speech (age/sex removed),1380,92,117,32,0.79,0.668,0.881,-0.018,-0.094,0.057
+PD vs HC,L2 logistic,speech,1417,81,154,21,0.69,0.537,0.825,,,
+PD vs HC,L1 logistic,speech,1417,81,154,21,0.64,0.486,0.8,-0.05,-0.146,0.027
+PD vs HC,RBF SVM,speech,1417,81,154,21,0.731,0.584,0.86,0.041,-0.023,0.101
+PD vs HC,L2 logistic,speech (age/sex removed),1417,81,154,21,0.637,0.475,0.796,,,
+PD vs HC,L1 logistic,speech (age/sex removed),1417,81,154,21,0.614,0.451,0.779,-0.023,-0.098,0.047
+PD vs HC,RBF SVM,speech (age/sex removed),1417,81,154,21,0.685,0.518,0.822,0.048,-0.024,0.118

@@ -1,0 +1,121 @@
+task,subset,condition,candidate,reference,auc_diff,lo,hi,ci_excludes_zero
+AD/MCI vs HC,all ages,all pairs,L1 logistic | speech,L2 logistic | speech,0.006,-0.0,0.013,False
+AD/MCI vs HC,all ages,all pairs,RBF SVM | speech,L2 logistic | speech,0.002,-0.005,0.008,False
+AD/MCI vs HC,all ages,all pairs,L1 logistic | speech (age/sex removed),L2 logistic | speech (age/sex removed),-0.004,-0.013,0.003,False
+AD/MCI vs HC,all ages,all pairs,RBF SVM | speech (age/sex removed),L2 logistic | speech (age/sex removed),0.017,-0.0,0.034,False
+AD/MCI vs HC,all ages,all pairs,L2 logistic | speech,L2 logistic | age only,0.1,0.068,0.131,True
+AD/MCI vs HC,all ages,all pairs,L1 logistic | speech,L2 logistic | age only,0.106,0.074,0.135,True
+AD/MCI vs HC,all ages,all pairs,RBF SVM | speech,L2 logistic | age only,0.101,0.069,0.131,True
+AD/MCI vs HC,all ages,all pairs,L2 logistic | speech (age/sex removed),L2 logistic | age only,0.05,0.012,0.091,True
+AD/MCI vs HC,all ages,all pairs,L1 logistic | speech (age/sex removed),L2 logistic | age only,0.046,0.005,0.086,True
+AD/MCI vs HC,all ages,all pairs,RBF SVM | speech (age/sex removed),L2 logistic | age only,0.067,0.03,0.104,True
+AD/MCI vs HC,all ages,same month,L1 logistic | speech,L2 logistic | speech,0.009,0.0,0.018,False
+AD/MCI vs HC,all ages,same month,RBF SVM | speech,L2 logistic | speech,0.006,-0.007,0.019,False
+AD/MCI vs HC,all ages,same month,L1 logistic | speech (age/sex removed),L2 logistic | speech (age/sex removed),0.0,-0.014,0.014,False
+AD/MCI vs HC,all ages,same month,RBF SVM | speech (age/sex removed),L2 logistic | speech (age/sex removed),0.021,-0.013,0.051,False
+AD/MCI vs HC,all ages,same month,L2 logistic | speech,L2 logistic | age only,0.074,0.028,0.123,True
+AD/MCI vs HC,all ages,same month,L1 logistic | speech,L2 logistic | age only,0.083,0.038,0.129,True
+AD/MCI vs HC,all ages,same month,RBF SVM | speech,L2 logistic | age only,0.08,0.035,0.127,True
+AD/MCI vs HC,all ages,same month,L2 logistic | speech (age/sex removed),L2 logistic | age only,0.016,-0.043,0.081,False
+AD/MCI vs HC,all ages,same month,L1 logistic | speech (age/sex removed),L2 logistic | age only,0.016,-0.044,0.08,False
+AD/MCI vs HC,all ages,same month,RBF SVM | speech (age/sex removed),L2 logistic | age only,0.036,-0.024,0.094,False
+AD/MCI vs HC,all ages,same month + age within 5y,L1 logistic | speech,L2 logistic | speech,0.01,-0.01,0.034,False
+AD/MCI vs HC,all ages,same month + age within 5y,RBF SVM | speech,L2 logistic | speech,0.003,-0.017,0.023,False
+AD/MCI vs HC,all ages,same month + age within 5y,L1 logistic | speech (age/sex removed),L2 logistic | speech (age/sex removed),-0.006,-0.029,0.016,False
+AD/MCI vs HC,all ages,same month + age within 5y,RBF SVM | speech (age/sex removed),L2 logistic | speech (age/sex removed),0.003,-0.036,0.037,False
+AD/MCI vs HC,all ages,same month + age within 5y,L2 logistic | speech,L2 logistic | age only,0.273,0.198,0.338,True
+AD/MCI vs HC,all ages,same month + age within 5y,L1 logistic | speech,L2 logistic | age only,0.283,0.217,0.344,True
+AD/MCI vs HC,all ages,same month + age within 5y,RBF SVM | speech,L2 logistic | age only,0.275,0.201,0.337,True
+AD/MCI vs HC,all ages,same month + age within 5y,L2 logistic | speech (age/sex removed),L2 logistic | age only,0.273,0.199,0.337,True
+AD/MCI vs HC,all ages,same month + age within 5y,L1 logistic | speech (age/sex removed),L2 logistic | age only,0.267,0.192,0.337,True
+AD/MCI vs HC,all ages,same month + age within 5y,RBF SVM | speech (age/sex removed),L2 logistic | age only,0.276,0.203,0.343,True
+AD/MCI vs HC,aged 70+,all pairs,L1 logistic | speech,L2 logistic | speech,0.004,-0.005,0.013,False
+AD/MCI vs HC,aged 70+,all pairs,RBF SVM | speech,L2 logistic | speech,0.004,-0.007,0.015,False
+AD/MCI vs HC,aged 70+,all pairs,L1 logistic | speech (age/sex removed),L2 logistic | speech (age/sex removed),-0.003,-0.013,0.006,False
+AD/MCI vs HC,aged 70+,all pairs,RBF SVM | speech (age/sex removed),L2 logistic | speech (age/sex removed),0.008,-0.011,0.028,False
+AD/MCI vs HC,aged 70+,all pairs,L2 logistic | speech,L2 logistic | age only,0.273,0.213,0.327,True
+AD/MCI vs HC,aged 70+,all pairs,L1 logistic | speech,L2 logistic | age only,0.277,0.219,0.334,True
+AD/MCI vs HC,aged 70+,all pairs,RBF SVM | speech,L2 logistic | age only,0.277,0.218,0.334,True
+AD/MCI vs HC,aged 70+,all pairs,L2 logistic | speech (age/sex removed),L2 logistic | age only,0.27,0.207,0.327,True
+AD/MCI vs HC,aged 70+,all pairs,L1 logistic | speech (age/sex removed),L2 logistic | age only,0.267,0.203,0.324,True
+AD/MCI vs HC,aged 70+,all pairs,RBF SVM | speech (age/sex removed),L2 logistic | age only,0.278,0.213,0.337,True
+AD/MCI vs HC,aged 70+,same month,L1 logistic | speech,L2 logistic | speech,0.01,-0.005,0.029,False
+AD/MCI vs HC,aged 70+,same month,RBF SVM | speech,L2 logistic | speech,0.002,-0.02,0.023,False
+AD/MCI vs HC,aged 70+,same month,L1 logistic | speech (age/sex removed),L2 logistic | speech (age/sex removed),0.005,-0.012,0.023,False
+AD/MCI vs HC,aged 70+,same month,RBF SVM | speech (age/sex removed),L2 logistic | speech (age/sex removed),-0.001,-0.038,0.034,False
+AD/MCI vs HC,aged 70+,same month,L2 logistic | speech,L2 logistic | age only,0.211,0.132,0.285,True
+AD/MCI vs HC,aged 70+,same month,L1 logistic | speech,L2 logistic | age only,0.22,0.144,0.291,True
+AD/MCI vs HC,aged 70+,same month,RBF SVM | speech,L2 logistic | age only,0.213,0.138,0.289,True
+AD/MCI vs HC,aged 70+,same month,L2 logistic | speech (age/sex removed),L2 logistic | age only,0.207,0.127,0.29,True
+AD/MCI vs HC,aged 70+,same month,L1 logistic | speech (age/sex removed),L2 logistic | age only,0.212,0.131,0.288,True
+AD/MCI vs HC,aged 70+,same month,RBF SVM | speech (age/sex removed),L2 logistic | age only,0.206,0.119,0.298,True
+AD/MCI vs HC,aged 70+,same month + age within 5y,L1 logistic | speech,L2 logistic | speech,0.012,-0.011,0.038,False
+AD/MCI vs HC,aged 70+,same month + age within 5y,RBF SVM | speech,L2 logistic | speech,0.007,-0.016,0.032,False
+AD/MCI vs HC,aged 70+,same month + age within 5y,L1 logistic | speech (age/sex removed),L2 logistic | speech (age/sex removed),0.002,-0.022,0.028,False
+AD/MCI vs HC,aged 70+,same month + age within 5y,RBF SVM | speech (age/sex removed),L2 logistic | speech (age/sex removed),0.002,-0.033,0.041,False
+AD/MCI vs HC,aged 70+,same month + age within 5y,L2 logistic | speech,L2 logistic | age only,0.305,0.22,0.387,True
+AD/MCI vs HC,aged 70+,same month + age within 5y,L1 logistic | speech,L2 logistic | age only,0.317,0.226,0.397,True
+AD/MCI vs HC,aged 70+,same month + age within 5y,RBF SVM | speech,L2 logistic | age only,0.311,0.223,0.389,True
+AD/MCI vs HC,aged 70+,same month + age within 5y,L2 logistic | speech (age/sex removed),L2 logistic | age only,0.311,0.225,0.389,True
+AD/MCI vs HC,aged 70+,same month + age within 5y,L1 logistic | speech (age/sex removed),L2 logistic | age only,0.314,0.222,0.39,True
+AD/MCI vs HC,aged 70+,same month + age within 5y,RBF SVM | speech (age/sex removed),L2 logistic | age only,0.314,0.231,0.397,True
+PD vs HC,all ages,all pairs,L1 logistic | speech,L2 logistic | speech,-0.0,-0.006,0.007,False
+PD vs HC,all ages,all pairs,RBF SVM | speech,L2 logistic | speech,0.002,-0.011,0.016,False
+PD vs HC,all ages,all pairs,L1 logistic | speech (age/sex removed),L2 logistic | speech (age/sex removed),-0.001,-0.011,0.007,False
+PD vs HC,all ages,all pairs,RBF SVM | speech (age/sex removed),L2 logistic | speech (age/sex removed),0.02,0.002,0.038,True
+PD vs HC,all ages,all pairs,L2 logistic | speech,L2 logistic | age only,0.335,0.284,0.384,True
+PD vs HC,all ages,all pairs,L1 logistic | speech,L2 logistic | age only,0.335,0.287,0.385,True
+PD vs HC,all ages,all pairs,RBF SVM | speech,L2 logistic | age only,0.337,0.288,0.386,True
+PD vs HC,all ages,all pairs,L2 logistic | speech (age/sex removed),L2 logistic | age only,0.314,0.261,0.369,True
+PD vs HC,all ages,all pairs,L1 logistic | speech (age/sex removed),L2 logistic | age only,0.312,0.259,0.367,True
+PD vs HC,all ages,all pairs,RBF SVM | speech (age/sex removed),L2 logistic | age only,0.334,0.281,0.386,True
+PD vs HC,all ages,same month,L1 logistic | speech,L2 logistic | speech,0.0,-0.009,0.01,False
+PD vs HC,all ages,same month,RBF SVM | speech,L2 logistic | speech,0.002,-0.014,0.016,False
+PD vs HC,all ages,same month,L1 logistic | speech (age/sex removed),L2 logistic | speech (age/sex removed),-0.001,-0.012,0.011,False
+PD vs HC,all ages,same month,RBF SVM | speech (age/sex removed),L2 logistic | speech (age/sex removed),0.018,-0.001,0.036,False
+PD vs HC,all ages,same month,L2 logistic | speech,L2 logistic | age only,0.387,0.328,0.444,True
+PD vs HC,all ages,same month,L1 logistic | speech,L2 logistic | age only,0.387,0.329,0.443,True
+PD vs HC,all ages,same month,RBF SVM | speech,L2 logistic | age only,0.389,0.333,0.446,True
+PD vs HC,all ages,same month,L2 logistic | speech (age/sex removed),L2 logistic | age only,0.373,0.309,0.435,True
+PD vs HC,all ages,same month,L1 logistic | speech (age/sex removed),L2 logistic | age only,0.372,0.31,0.432,True
+PD vs HC,all ages,same month,RBF SVM | speech (age/sex removed),L2 logistic | age only,0.391,0.329,0.448,True
+PD vs HC,all ages,same month + age within 5y,L1 logistic | speech,L2 logistic | speech,-0.001,-0.017,0.015,False
+PD vs HC,all ages,same month + age within 5y,RBF SVM | speech,L2 logistic | speech,-0.004,-0.022,0.015,False
+PD vs HC,all ages,same month + age within 5y,L1 logistic | speech (age/sex removed),L2 logistic | speech (age/sex removed),-0.001,-0.022,0.018,False
+PD vs HC,all ages,same month + age within 5y,RBF SVM | speech (age/sex removed),L2 logistic | speech (age/sex removed),0.021,-0.008,0.047,False
+PD vs HC,all ages,same month + age within 5y,L2 logistic | speech,L2 logistic | age only,0.41,0.361,0.465,True
+PD vs HC,all ages,same month + age within 5y,L1 logistic | speech,L2 logistic | age only,0.409,0.362,0.462,True
+PD vs HC,all ages,same month + age within 5y,RBF SVM | speech,L2 logistic | age only,0.406,0.356,0.46,True
+PD vs HC,all ages,same month + age within 5y,L2 logistic | speech (age/sex removed),L2 logistic | age only,0.389,0.335,0.443,True
+PD vs HC,all ages,same month + age within 5y,L1 logistic | speech (age/sex removed),L2 logistic | age only,0.388,0.336,0.444,True
+PD vs HC,all ages,same month + age within 5y,RBF SVM | speech (age/sex removed),L2 logistic | age only,0.41,0.36,0.461,True
+PD vs HC,aged 70+,all pairs,L1 logistic | speech,L2 logistic | speech,-0.001,-0.01,0.007,False
+PD vs HC,aged 70+,all pairs,RBF SVM | speech,L2 logistic | speech,-0.008,-0.033,0.018,False
+PD vs HC,aged 70+,all pairs,L1 logistic | speech (age/sex removed),L2 logistic | speech (age/sex removed),-0.008,-0.019,0.003,False
+PD vs HC,aged 70+,all pairs,RBF SVM | speech (age/sex removed),L2 logistic | speech (age/sex removed),0.003,-0.022,0.03,False
+PD vs HC,aged 70+,all pairs,L2 logistic | speech,L2 logistic | age only,0.417,0.327,0.491,True
+PD vs HC,aged 70+,all pairs,L1 logistic | speech,L2 logistic | age only,0.415,0.324,0.488,True
+PD vs HC,aged 70+,all pairs,RBF SVM | speech,L2 logistic | age only,0.409,0.321,0.483,True
+PD vs HC,aged 70+,all pairs,L2 logistic | speech (age/sex removed),L2 logistic | age only,0.41,0.32,0.483,True
+PD vs HC,aged 70+,all pairs,L1 logistic | speech (age/sex removed),L2 logistic | age only,0.402,0.308,0.476,True
+PD vs HC,aged 70+,all pairs,RBF SVM | speech (age/sex removed),L2 logistic | age only,0.413,0.33,0.487,True
+PD vs HC,aged 70+,same month,L1 logistic | speech,L2 logistic | speech,-0.001,-0.015,0.013,False
+PD vs HC,aged 70+,same month,RBF SVM | speech,L2 logistic | speech,-0.006,-0.04,0.029,False
+PD vs HC,aged 70+,same month,L1 logistic | speech (age/sex removed),L2 logistic | speech (age/sex removed),-0.004,-0.028,0.029,False
+PD vs HC,aged 70+,same month,RBF SVM | speech (age/sex removed),L2 logistic | speech (age/sex removed),0.003,-0.033,0.04,False
+PD vs HC,aged 70+,same month,L2 logistic | speech,L2 logistic | age only,0.444,0.3,0.553,True
+PD vs HC,aged 70+,same month,L1 logistic | speech,L2 logistic | age only,0.443,0.297,0.554,True
+PD vs HC,aged 70+,same month,RBF SVM | speech,L2 logistic | age only,0.437,0.295,0.561,True
+PD vs HC,aged 70+,same month,L2 logistic | speech (age/sex removed),L2 logistic | age only,0.456,0.318,0.569,True
+PD vs HC,aged 70+,same month,L1 logistic | speech (age/sex removed),L2 logistic | age only,0.452,0.32,0.567,True
+PD vs HC,aged 70+,same month,RBF SVM | speech (age/sex removed),L2 logistic | age only,0.459,0.326,0.576,True
+PD vs HC,aged 70+,same month + age within 5y,L1 logistic | speech,L2 logistic | speech,0.003,-0.017,0.021,False
+PD vs HC,aged 70+,same month + age within 5y,RBF SVM | speech,L2 logistic | speech,-0.012,-0.057,0.026,False
+PD vs HC,aged 70+,same month + age within 5y,L1 logistic | speech (age/sex removed),L2 logistic | speech (age/sex removed),-0.001,-0.032,0.036,False
+PD vs HC,aged 70+,same month + age within 5y,RBF SVM | speech (age/sex removed),L2 logistic | speech (age/sex removed),-0.004,-0.048,0.04,False
+PD vs HC,aged 70+,same month + age within 5y,L2 logistic | speech,L2 logistic | age only,0.416,0.275,0.513,True
+PD vs HC,aged 70+,same month + age within 5y,L1 logistic | speech,L2 logistic | age only,0.419,0.288,0.513,True
+PD vs HC,aged 70+,same month + age within 5y,RBF SVM | speech,L2 logistic | age only,0.404,0.276,0.503,True
+PD vs HC,aged 70+,same month + age within 5y,L2 logistic | speech (age/sex removed),L2 logistic | age only,0.431,0.292,0.527,True
+PD vs HC,aged 70+,same month + age within 5y,L1 logistic | speech (age/sex removed),L2 logistic | age only,0.429,0.303,0.523,True
+PD vs HC,aged 70+,same month + age within 5y,RBF SVM | speech (age/sex removed),L2 logistic | age only,0.426,0.291,0.524,True

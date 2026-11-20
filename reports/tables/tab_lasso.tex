@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\small
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrrrrrrrr}
+\toprule
+Task & Kept per fold & Kept in $\geq$80\% & Trill PCs kept & Phonation & Pataka & Picture & Naming & $|r_{\text{date}}|$ kept & $|r_{\text{date}}|$ all & perm.\ $p$ \\
+\midrule
+AD/MCI vs. healthy & 72.0 / 392 & 12 & 27.9 & 19\% & 29\% & 26\% & 26\% & 0.07 & 0.06 & 0.273 \\
+Parkinson's vs. healthy & 93.8 / 392 & 21 & 29.9 & 31\% & 31\% & 25\% & 14\% & 0.06 & 0.06 & 0.471 \\
+\bottomrule
+\end{tabular}}
+\caption{What the lasso keeps (speech features, 25 outer folds). Task columns: share of kept GeMAPS/NeuroSpeech features by speech task. $|r_{\text{date}}|$: mean absolute correlation with recording date among healthy speakers, for features kept in at least 80\% of folds versus all features; perm.\ $p$: chance that a random set of the same size is at least as date-sensitive.}
+\label{tab:lasso}
+\end{table}

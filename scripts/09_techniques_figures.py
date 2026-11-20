@@ -135,7 +135,7 @@ for i, feats in enumerate(SETS):
             ax.set_ylabel("AUC (95% CI over speakers)")
 h, l = axes[0, 0].get_legend_handles_labels()
 fig.legend(h, l, loc="lower center", ncol=4, bbox_to_anchor=(0.5, -0.02), fontsize=9)
-fig.suptitle("Three techniques on the same folds: overall, in matched pairs, and over time",
+fig.suptitle("The three techniques agree in every check; the Parkinson's drop over time is shared by all three",
              x=0.01, ha="left", fontsize=11, fontweight="bold", y=1.0)
 fig.tight_layout(rect=(0, 0.04, 1, 0.97))
 for ext in ("png", "pdf"):
@@ -264,6 +264,16 @@ for task, k in key.items():
         M[f"tq{k}LassoAgeStable"] = fmt(s.age_corr_stable, 2)
         M[f"tq{k}LassoAgeAll"] = fmt(s.age_corr_all, 2)
         M[f"tq{k}LassoP"] = fmt(s.get("date_corr_perm_p", np.nan), 3)
+        # same permutation test for AGE sensitivity, from the per-feature table (seeded)
+        g = lf[(lf.task == task) & ~lf.feature.str.startswith("trill")]
+        st = g[g.frac_folds_selected >= 0.8].abs_corr_age_hc.dropna()
+        pool = g.abs_corr_age_hc.dropna().to_numpy()
+        if len(st):
+            prng = np.random.default_rng(42)
+            null = np.array([prng.choice(pool, len(st), replace=False).mean() for _ in range(5000)])
+            M[f"tq{k}LassoAgeP"] = f"{(np.sum(null >= st.mean()) + 1) / 5001:.3f}"
+        for t in TASKS4:
+            M[f"tq{k}LassoShare{t.capitalize()}"] = f"{s[f'share_{t}']:.0%}".replace("%", r"\%")
         best = max(TASKS4, key=lambda t: s[f"share_{t}"])
         M[f"tq{k}LassoTopTask"] = best
         M[f"tq{k}LassoTopShare"] = f"{s[f'share_{best}']:.0%}".replace("%", r"\%")

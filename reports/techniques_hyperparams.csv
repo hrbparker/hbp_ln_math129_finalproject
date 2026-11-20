@@ -1,0 +1,313 @@
+task,features,technique,fold,C,gamma
+AD/MCI vs HC,speech,L2 logistic,0,0.01,
+AD/MCI vs HC,speech,L1 logistic,0,0.1,
+AD/MCI vs HC,speech,RBF SVM,0,10.0,0.1
+AD/MCI vs HC,speech (age/sex removed),L2 logistic,0,0.01,
+AD/MCI vs HC,speech (age/sex removed),L1 logistic,0,0.1,
+AD/MCI vs HC,speech (age/sex removed),RBF SVM,0,1.0,1.0
+AD/MCI vs HC,speech,L2 logistic,1,0.01,
+AD/MCI vs HC,speech,L1 logistic,1,0.1,
+AD/MCI vs HC,speech,RBF SVM,1,10.0,0.1
+AD/MCI vs HC,speech (age/sex removed),L2 logistic,1,0.01,
+AD/MCI vs HC,speech (age/sex removed),L1 logistic,1,0.03,
+AD/MCI vs HC,speech (age/sex removed),RBF SVM,1,1.0,1.0
+AD/MCI vs HC,speech,L2 logistic,2,0.01,
+AD/MCI vs HC,speech,L1 logistic,2,0.1,
+AD/MCI vs HC,speech,RBF SVM,2,1.0,0.1
+AD/MCI vs HC,speech (age/sex removed),L2 logistic,2,0.01,
+AD/MCI vs HC,speech (age/sex removed),L1 logistic,2,0.03,
+AD/MCI vs HC,speech (age/sex removed),RBF SVM,2,1.0,1.0
+AD/MCI vs HC,speech,L2 logistic,3,0.01,
+AD/MCI vs HC,speech,L1 logistic,3,0.1,
+AD/MCI vs HC,speech,RBF SVM,3,1.0,1.0
+AD/MCI vs HC,speech (age/sex removed),L2 logistic,3,0.01,
+AD/MCI vs HC,speech (age/sex removed),L1 logistic,3,0.1,
+AD/MCI vs HC,speech (age/sex removed),RBF SVM,3,1.0,1.0
+AD/MCI vs HC,speech,L2 logistic,4,0.01,
+AD/MCI vs HC,speech,L1 logistic,4,0.1,
+AD/MCI vs HC,speech,RBF SVM,4,1.0,1.0
+AD/MCI vs HC,speech (age/sex removed),L2 logistic,4,0.01,
+AD/MCI vs HC,speech (age/sex removed),L1 logistic,4,0.1,
+AD/MCI vs HC,speech (age/sex removed),RBF SVM,4,1.0,1.0
+AD/MCI vs HC,speech,L2 logistic,5,0.01,
+AD/MCI vs HC,speech,L1 logistic,5,0.1,
+AD/MCI vs HC,speech,RBF SVM,5,1.0,1.0
+AD/MCI vs HC,speech (age/sex removed),L2 logistic,5,0.01,
+AD/MCI vs HC,speech (age/sex removed),L1 logistic,5,0.1,
+AD/MCI vs HC,speech (age/sex removed),RBF SVM,5,10.0,1.0
+AD/MCI vs HC,speech,L2 logistic,6,0.01,
+AD/MCI vs HC,speech,L1 logistic,6,0.1,
+AD/MCI vs HC,speech,RBF SVM,6,1.0,1.0
+AD/MCI vs HC,speech (age/sex removed),L2 logistic,6,0.01,
+AD/MCI vs HC,speech (age/sex removed),L1 logistic,6,0.03,
+AD/MCI vs HC,speech (age/sex removed),RBF SVM,6,1.0,1.0
+AD/MCI vs HC,speech,L2 logistic,7,0.01,
+AD/MCI vs HC,speech,L1 logistic,7,0.1,
+AD/MCI vs HC,speech,RBF SVM,7,1.0,1.0
+AD/MCI vs HC,speech (age/sex removed),L2 logistic,7,0.01,
+AD/MCI vs HC,speech (age/sex removed),L1 logistic,7,0.1,
+AD/MCI vs HC,speech (age/sex removed),RBF SVM,7,1.0,1.0
+AD/MCI vs HC,speech,L2 logistic,8,0.01,
+AD/MCI vs HC,speech,L1 logistic,8,0.1,
+AD/MCI vs HC,speech,RBF SVM,8,1.0,1.0
+AD/MCI vs HC,speech (age/sex removed),L2 logistic,8,0.01,
+AD/MCI vs HC,speech (age/sex removed),L1 logistic,8,0.03,
+AD/MCI vs HC,speech (age/sex removed),RBF SVM,8,1.0,1.0
+AD/MCI vs HC,speech,L2 logistic,9,0.01,
+AD/MCI vs HC,speech,L1 logistic,9,0.1,
+AD/MCI vs HC,speech,RBF SVM,9,10.0,0.1
+AD/MCI vs HC,speech (age/sex removed),L2 logistic,9,0.01,
+AD/MCI vs HC,speech (age/sex removed),L1 logistic,9,0.1,
+AD/MCI vs HC,speech (age/sex removed),RBF SVM,9,1.0,1.0
+AD/MCI vs HC,speech,L2 logistic,10,0.01,
+AD/MCI vs HC,speech,L1 logistic,10,0.1,
+AD/MCI vs HC,speech,RBF SVM,10,10.0,0.1
+AD/MCI vs HC,speech (age/sex removed),L2 logistic,10,0.01,
+AD/MCI vs HC,speech (age/sex removed),L1 logistic,10,0.03,
+AD/MCI vs HC,speech (age/sex removed),RBF SVM,10,1.0,1.0
+AD/MCI vs HC,speech,L2 logistic,11,0.01,
+AD/MCI vs HC,speech,L1 logistic,11,0.1,
+AD/MCI vs HC,speech,RBF SVM,11,1.0,1.0
+AD/MCI vs HC,speech (age/sex removed),L2 logistic,11,0.01,
+AD/MCI vs HC,speech (age/sex removed),L1 logistic,11,0.1,
+AD/MCI vs HC,speech (age/sex removed),RBF SVM,11,1.0,1.0
+AD/MCI vs HC,speech,L2 logistic,12,0.01,
+AD/MCI vs HC,speech,L1 logistic,12,0.03,
+AD/MCI vs HC,speech,RBF SVM,12,1.0,1.0
+AD/MCI vs HC,speech (age/sex removed),L2 logistic,12,0.01,
+AD/MCI vs HC,speech (age/sex removed),L1 logistic,12,0.03,
+AD/MCI vs HC,speech (age/sex removed),RBF SVM,12,1.0,1.0
+AD/MCI vs HC,speech,L2 logistic,13,0.01,
+AD/MCI vs HC,speech,L1 logistic,13,0.1,
+AD/MCI vs HC,speech,RBF SVM,13,1.0,1.0
+AD/MCI vs HC,speech (age/sex removed),L2 logistic,13,0.01,
+AD/MCI vs HC,speech (age/sex removed),L1 logistic,13,0.1,
+AD/MCI vs HC,speech (age/sex removed),RBF SVM,13,1.0,1.0
+AD/MCI vs HC,speech,L2 logistic,14,0.01,
+AD/MCI vs HC,speech,L1 logistic,14,0.03,
+AD/MCI vs HC,speech,RBF SVM,14,1.0,1.0
+AD/MCI vs HC,speech (age/sex removed),L2 logistic,14,0.01,
+AD/MCI vs HC,speech (age/sex removed),L1 logistic,14,0.03,
+AD/MCI vs HC,speech (age/sex removed),RBF SVM,14,1.0,1.0
+AD/MCI vs HC,speech,L2 logistic,15,0.01,
+AD/MCI vs HC,speech,L1 logistic,15,0.1,
+AD/MCI vs HC,speech,RBF SVM,15,1.0,1.0
+AD/MCI vs HC,speech (age/sex removed),L2 logistic,15,0.01,
+AD/MCI vs HC,speech (age/sex removed),L1 logistic,15,0.03,
+AD/MCI vs HC,speech (age/sex removed),RBF SVM,15,1.0,1.0
+AD/MCI vs HC,speech,L2 logistic,16,0.01,
+AD/MCI vs HC,speech,L1 logistic,16,0.1,
+AD/MCI vs HC,speech,RBF SVM,16,1.0,1.0
+AD/MCI vs HC,speech (age/sex removed),L2 logistic,16,0.01,
+AD/MCI vs HC,speech (age/sex removed),L1 logistic,16,0.1,
+AD/MCI vs HC,speech (age/sex removed),RBF SVM,16,1.0,1.0
+AD/MCI vs HC,speech,L2 logistic,17,0.01,
+AD/MCI vs HC,speech,L1 logistic,17,0.1,
+AD/MCI vs HC,speech,RBF SVM,17,10.0,0.1
+AD/MCI vs HC,speech (age/sex removed),L2 logistic,17,0.01,
+AD/MCI vs HC,speech (age/sex removed),L1 logistic,17,0.1,
+AD/MCI vs HC,speech (age/sex removed),RBF SVM,17,1.0,1.0
+AD/MCI vs HC,speech,L2 logistic,18,0.01,
+AD/MCI vs HC,speech,L1 logistic,18,0.1,
+AD/MCI vs HC,speech,RBF SVM,18,10.0,0.1
+AD/MCI vs HC,speech (age/sex removed),L2 logistic,18,0.01,
+AD/MCI vs HC,speech (age/sex removed),L1 logistic,18,0.03,
+AD/MCI vs HC,speech (age/sex removed),RBF SVM,18,1.0,1.0
+AD/MCI vs HC,speech,L2 logistic,19,0.01,
+AD/MCI vs HC,speech,L1 logistic,19,0.1,
+AD/MCI vs HC,speech,RBF SVM,19,10.0,0.1
+AD/MCI vs HC,speech (age/sex removed),L2 logistic,19,0.01,
+AD/MCI vs HC,speech (age/sex removed),L1 logistic,19,0.03,
+AD/MCI vs HC,speech (age/sex removed),RBF SVM,19,1.0,1.0
+AD/MCI vs HC,speech,L2 logistic,20,0.01,
+AD/MCI vs HC,speech,L1 logistic,20,0.1,
+AD/MCI vs HC,speech,RBF SVM,20,10.0,0.1
+AD/MCI vs HC,speech (age/sex removed),L2 logistic,20,0.01,
+AD/MCI vs HC,speech (age/sex removed),L1 logistic,20,0.03,
+AD/MCI vs HC,speech (age/sex removed),RBF SVM,20,1.0,1.0
+AD/MCI vs HC,speech,L2 logistic,21,0.01,
+AD/MCI vs HC,speech,L1 logistic,21,0.1,
+AD/MCI vs HC,speech,RBF SVM,21,10.0,0.1
+AD/MCI vs HC,speech (age/sex removed),L2 logistic,21,0.01,
+AD/MCI vs HC,speech (age/sex removed),L1 logistic,21,0.1,
+AD/MCI vs HC,speech (age/sex removed),RBF SVM,21,1.0,1.0
+AD/MCI vs HC,speech,L2 logistic,22,0.01,
+AD/MCI vs HC,speech,L1 logistic,22,0.1,
+AD/MCI vs HC,speech,RBF SVM,22,1.0,0.1
+AD/MCI vs HC,speech (age/sex removed),L2 logistic,22,0.01,
+AD/MCI vs HC,speech (age/sex removed),L1 logistic,22,0.03,
+AD/MCI vs HC,speech (age/sex removed),RBF SVM,22,1.0,1.0
+AD/MCI vs HC,speech,L2 logistic,23,0.01,
+AD/MCI vs HC,speech,L1 logistic,23,0.1,
+AD/MCI vs HC,speech,RBF SVM,23,10.0,0.1
+AD/MCI vs HC,speech (age/sex removed),L2 logistic,23,0.01,
+AD/MCI vs HC,speech (age/sex removed),L1 logistic,23,0.1,
+AD/MCI vs HC,speech (age/sex removed),RBF SVM,23,1.0,1.0
+AD/MCI vs HC,speech,L2 logistic,24,0.01,
+AD/MCI vs HC,speech,L1 logistic,24,0.1,
+AD/MCI vs HC,speech,RBF SVM,24,1.0,1.0
+AD/MCI vs HC,speech (age/sex removed),L2 logistic,24,0.01,
+AD/MCI vs HC,speech (age/sex removed),L1 logistic,24,0.1,
+AD/MCI vs HC,speech (age/sex removed),RBF SVM,24,1.0,1.0
+AD/MCI vs HC,speech,L2 logistic,temporal,0.01,
+AD/MCI vs HC,speech,L1 logistic,temporal,0.03,
+AD/MCI vs HC,speech,RBF SVM,temporal,1.0,1.0
+AD/MCI vs HC,speech (age/sex removed),L2 logistic,temporal,0.01,
+AD/MCI vs HC,speech (age/sex removed),L1 logistic,temporal,0.03,
+AD/MCI vs HC,speech (age/sex removed),RBF SVM,temporal,1.0,1.0
+PD vs HC,speech,L2 logistic,0,0.01,
+PD vs HC,speech,L1 logistic,0,0.1,
+PD vs HC,speech,RBF SVM,0,1.0,1.0
+PD vs HC,speech (age/sex removed),L2 logistic,0,0.01,
+PD vs HC,speech (age/sex removed),L1 logistic,0,0.1,
+PD vs HC,speech (age/sex removed),RBF SVM,0,1.0,1.0
+PD vs HC,speech,L2 logistic,1,0.01,
+PD vs HC,speech,L1 logistic,1,0.1,
+PD vs HC,speech,RBF SVM,1,1.0,1.0
+PD vs HC,speech (age/sex removed),L2 logistic,1,0.01,
+PD vs HC,speech (age/sex removed),L1 logistic,1,0.1,
+PD vs HC,speech (age/sex removed),RBF SVM,1,1.0,1.0
+PD vs HC,speech,L2 logistic,2,0.01,
+PD vs HC,speech,L1 logistic,2,0.1,
+PD vs HC,speech,RBF SVM,2,10.0,1.0
+PD vs HC,speech (age/sex removed),L2 logistic,2,0.01,
+PD vs HC,speech (age/sex removed),L1 logistic,2,0.1,
+PD vs HC,speech (age/sex removed),RBF SVM,2,1.0,1.0
+PD vs HC,speech,L2 logistic,3,0.01,
+PD vs HC,speech,L1 logistic,3,0.03,
+PD vs HC,speech,RBF SVM,3,1.0,1.0
+PD vs HC,speech (age/sex removed),L2 logistic,3,0.01,
+PD vs HC,speech (age/sex removed),L1 logistic,3,0.03,
+PD vs HC,speech (age/sex removed),RBF SVM,3,1.0,1.0
+PD vs HC,speech,L2 logistic,4,0.01,
+PD vs HC,speech,L1 logistic,4,0.1,
+PD vs HC,speech,RBF SVM,4,10.0,0.1
+PD vs HC,speech (age/sex removed),L2 logistic,4,0.01,
+PD vs HC,speech (age/sex removed),L1 logistic,4,0.03,
+PD vs HC,speech (age/sex removed),RBF SVM,4,1.0,1.0
+PD vs HC,speech,L2 logistic,5,0.01,
+PD vs HC,speech,L1 logistic,5,0.1,
+PD vs HC,speech,RBF SVM,5,1.0,1.0
+PD vs HC,speech (age/sex removed),L2 logistic,5,0.01,
+PD vs HC,speech (age/sex removed),L1 logistic,5,0.03,
+PD vs HC,speech (age/sex removed),RBF SVM,5,1.0,1.0
+PD vs HC,speech,L2 logistic,6,0.01,
+PD vs HC,speech,L1 logistic,6,0.1,
+PD vs HC,speech,RBF SVM,6,1.0,1.0
+PD vs HC,speech (age/sex removed),L2 logistic,6,0.01,
+PD vs HC,speech (age/sex removed),L1 logistic,6,0.1,
+PD vs HC,speech (age/sex removed),RBF SVM,6,1.0,1.0
+PD vs HC,speech,L2 logistic,7,0.01,
+PD vs HC,speech,L1 logistic,7,0.1,
+PD vs HC,speech,RBF SVM,7,1.0,1.0
+PD vs HC,speech (age/sex removed),L2 logistic,7,0.01,
+PD vs HC,speech (age/sex removed),L1 logistic,7,0.1,
+PD vs HC,speech (age/sex removed),RBF SVM,7,1.0,1.0
+PD vs HC,speech,L2 logistic,8,0.01,
+PD vs HC,speech,L1 logistic,8,0.3,
+PD vs HC,speech,RBF SVM,8,1.0,1.0
+PD vs HC,speech (age/sex removed),L2 logistic,8,0.01,
+PD vs HC,speech (age/sex removed),L1 logistic,8,0.1,
+PD vs HC,speech (age/sex removed),RBF SVM,8,1.0,1.0
+PD vs HC,speech,L2 logistic,9,0.01,
+PD vs HC,speech,L1 logistic,9,0.1,
+PD vs HC,speech,RBF SVM,9,10.0,0.1
+PD vs HC,speech (age/sex removed),L2 logistic,9,0.01,
+PD vs HC,speech (age/sex removed),L1 logistic,9,0.1,
+PD vs HC,speech (age/sex removed),RBF SVM,9,1.0,1.0
+PD vs HC,speech,L2 logistic,10,0.01,
+PD vs HC,speech,L1 logistic,10,0.1,
+PD vs HC,speech,RBF SVM,10,1.0,0.1
+PD vs HC,speech (age/sex removed),L2 logistic,10,0.01,
+PD vs HC,speech (age/sex removed),L1 logistic,10,0.1,
+PD vs HC,speech (age/sex removed),RBF SVM,10,1.0,1.0
+PD vs HC,speech,L2 logistic,11,0.01,
+PD vs HC,speech,L1 logistic,11,0.1,
+PD vs HC,speech,RBF SVM,11,10.0,0.1
+PD vs HC,speech (age/sex removed),L2 logistic,11,0.01,
+PD vs HC,speech (age/sex removed),L1 logistic,11,0.1,
+PD vs HC,speech (age/sex removed),RBF SVM,11,1.0,1.0
+PD vs HC,speech,L2 logistic,12,0.01,
+PD vs HC,speech,L1 logistic,12,0.1,
+PD vs HC,speech,RBF SVM,12,10.0,0.1
+PD vs HC,speech (age/sex removed),L2 logistic,12,0.01,
+PD vs HC,speech (age/sex removed),L1 logistic,12,0.1,
+PD vs HC,speech (age/sex removed),RBF SVM,12,1.0,1.0
+PD vs HC,speech,L2 logistic,13,0.01,
+PD vs HC,speech,L1 logistic,13,0.1,
+PD vs HC,speech,RBF SVM,13,10.0,0.1
+PD vs HC,speech (age/sex removed),L2 logistic,13,0.01,
+PD vs HC,speech (age/sex removed),L1 logistic,13,0.03,
+PD vs HC,speech (age/sex removed),RBF SVM,13,1.0,1.0
+PD vs HC,speech,L2 logistic,14,0.01,
+PD vs HC,speech,L1 logistic,14,0.1,
+PD vs HC,speech,RBF SVM,14,1.0,1.0
+PD vs HC,speech (age/sex removed),L2 logistic,14,0.01,
+PD vs HC,speech (age/sex removed),L1 logistic,14,0.1,
+PD vs HC,speech (age/sex removed),RBF SVM,14,1.0,1.0
+PD vs HC,speech,L2 logistic,15,0.01,
+PD vs HC,speech,L1 logistic,15,0.1,
+PD vs HC,speech,RBF SVM,15,10.0,0.1
+PD vs HC,speech (age/sex removed),L2 logistic,15,0.01,
+PD vs HC,speech (age/sex removed),L1 logistic,15,0.03,
+PD vs HC,speech (age/sex removed),RBF SVM,15,1.0,1.0
+PD vs HC,speech,L2 logistic,16,0.01,
+PD vs HC,speech,L1 logistic,16,0.1,
+PD vs HC,speech,RBF SVM,16,1.0,1.0
+PD vs HC,speech (age/sex removed),L2 logistic,16,0.01,
+PD vs HC,speech (age/sex removed),L1 logistic,16,0.1,
+PD vs HC,speech (age/sex removed),RBF SVM,16,1.0,1.0
+PD vs HC,speech,L2 logistic,17,0.01,
+PD vs HC,speech,L1 logistic,17,0.03,
+PD vs HC,speech,RBF SVM,17,1.0,1.0
+PD vs HC,speech (age/sex removed),L2 logistic,17,0.01,
+PD vs HC,speech (age/sex removed),L1 logistic,17,0.03,
+PD vs HC,speech (age/sex removed),RBF SVM,17,1.0,1.0
+PD vs HC,speech,L2 logistic,18,0.01,
+PD vs HC,speech,L1 logistic,18,0.1,
+PD vs HC,speech,RBF SVM,18,10.0,0.1
+PD vs HC,speech (age/sex removed),L2 logistic,18,0.01,
+PD vs HC,speech (age/sex removed),L1 logistic,18,0.1,
+PD vs HC,speech (age/sex removed),RBF SVM,18,1.0,1.0
+PD vs HC,speech,L2 logistic,19,0.01,
+PD vs HC,speech,L1 logistic,19,0.1,
+PD vs HC,speech,RBF SVM,19,10.0,0.1
+PD vs HC,speech (age/sex removed),L2 logistic,19,0.01,
+PD vs HC,speech (age/sex removed),L1 logistic,19,0.1,
+PD vs HC,speech (age/sex removed),RBF SVM,19,1.0,1.0
+PD vs HC,speech,L2 logistic,20,0.01,
+PD vs HC,speech,L1 logistic,20,0.1,
+PD vs HC,speech,RBF SVM,20,1.0,0.1
+PD vs HC,speech (age/sex removed),L2 logistic,20,0.01,
+PD vs HC,speech (age/sex removed),L1 logistic,20,0.3,
+PD vs HC,speech (age/sex removed),RBF SVM,20,10.0,1.0
+PD vs HC,speech,L2 logistic,21,0.01,
+PD vs HC,speech,L1 logistic,21,0.1,
+PD vs HC,speech,RBF SVM,21,10.0,0.1
+PD vs HC,speech (age/sex removed),L2 logistic,21,0.01,
+PD vs HC,speech (age/sex removed),L1 logistic,21,0.1,
+PD vs HC,speech (age/sex removed),RBF SVM,21,1.0,1.0
+PD vs HC,speech,L2 logistic,22,0.01,
+PD vs HC,speech,L1 logistic,22,0.1,
+PD vs HC,speech,RBF SVM,22,1.0,1.0
+PD vs HC,speech (age/sex removed),L2 logistic,22,0.01,
+PD vs HC,speech (age/sex removed),L1 logistic,22,0.1,
+PD vs HC,speech (age/sex removed),RBF SVM,22,1.0,1.0
+PD vs HC,speech,L2 logistic,23,0.01,
+PD vs HC,speech,L1 logistic,23,0.1,
+PD vs HC,speech,RBF SVM,23,10.0,10.0
+PD vs HC,speech (age/sex removed),L2 logistic,23,0.01,
+PD vs HC,speech (age/sex removed),L1 logistic,23,0.1,
+PD vs HC,speech (age/sex removed),RBF SVM,23,1.0,10.0
+PD vs HC,speech,L2 logistic,24,0.01,
+PD vs HC,speech,L1 logistic,24,0.1,
+PD vs HC,speech,RBF SVM,24,10.0,0.1
+PD vs HC,speech (age/sex removed),L2 logistic,24,0.01,
+PD vs HC,speech (age/sex removed),L1 logistic,24,0.03,
+PD vs HC,speech (age/sex removed),RBF SVM,24,1.0,1.0
+PD vs HC,speech,L2 logistic,temporal,0.01,
+PD vs HC,speech,L1 logistic,temporal,0.1,
+PD vs HC,speech,RBF SVM,temporal,10.0,0.1
+PD vs HC,speech (age/sex removed),L2 logistic,temporal,0.01,
+PD vs HC,speech (age/sex removed),L1 logistic,temporal,0.1,
+PD vs HC,speech (age/sex removed),RBF SVM,temporal,10.0,0.1

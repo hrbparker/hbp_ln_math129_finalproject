@@ -1,0 +1,30 @@
+\begin{table}[t]
+\centering
+\small
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llrlrr}
+\toprule
+Task & Feature (task:feature) & Folds kept & In patients & $|r_{\text{date}}|$ (HC) & $|r_{\text{age}}|$ (HC) \\
+\midrule
+AD/MCI vs. healthy & \texttt{pataka:gm\_loudnessPeaksPerSec} & 100\% & lower & 0.14 & 0.36 \\
+ & \texttt{naming:gm\_F0semitoneFrom27.5Hz\_sma3nz\_stddevRisingSlope} & 100\% & higher & 0.06 & 0.37 \\
+ & \texttt{pataka:ns\_mmF0} & 96\% & higher & 0.06 & 0.01 \\
+ & \texttt{naming:gm\_StddevUnvoicedSegmentLength} & 96\% & higher & 0.09 & 0.46 \\
+ & \texttt{phonation:ns\_mmlogE} & 92\% & higher & 0.03 & 0.01 \\
+ & \texttt{picture:gm\_slopeV0-500\_sma3nz\_stddevNorm} & 92\% & higher & 0.04 & 0.01 \\
+ & \texttt{picture:ns\_slogE} & 92\% & higher & 0.18 & 0.04 \\
+ & \texttt{pataka:gm\_F3frequency\_sma3nz\_amean} & 88\% & lower & 0.05 & 0.05 \\
+\midrule
+Parkinson's vs. healthy & \texttt{phonation:gm\_F0semitoneFrom27.5Hz\_sma3nz\_stddevRisingSlope} & 100\% & lower & 0.06 & 0.09 \\
+ & \texttt{phonation:gm\_loudnessPeaksPerSec} & 100\% & higher & 0.03 & 0.13 \\
+ & \texttt{picture:gm\_slopeV500-1500\_sma3nz\_amean} & 100\% & higher & 0.12 & 0.07 \\
+ & \texttt{pataka:gm\_F0semitoneFrom27.5Hz\_sma3nz\_meanFallingSlope} & 96\% & higher & 0.07 & 0.03 \\
+ & \texttt{pataka:gm\_shimmerLocaldB\_sma3nz\_stddevNorm} & 96\% & higher & 0.01 & 0.02 \\
+ & \texttt{phonation:gm\_logRelF0-H1-H2\_sma3nz\_amean} & 92\% & higher & 0.05 & 0.00 \\
+ & \texttt{phonation:ns\_stddurddk} & 92\% & higher & 0.03 & 0.02 \\
+ & \texttt{phonation:ns\_stddurv} & 92\% & higher & 0.03 & 0.02 \\
+\bottomrule
+\end{tabular}}
+\caption{Features the lasso keeps most often. ``In patients'': sign of the weight (higher or lower values push towards the patient class). Correlations are among healthy speakers only.}
+\label{tab:lasso_top}
+\end{table}

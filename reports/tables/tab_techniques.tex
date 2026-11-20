@@ -1,0 +1,26 @@
+\begin{table}[t]
+\centering
+\small
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lllcccc}
+\toprule
+Task & Features & Technique & CV AUC [95\% CI] & Mean fold AUC & Matched AUC & Temporal AUC \\
+\midrule
+AD/MCI vs. healthy & speech & L2 logistic (ridge) & 0.939 [0.92, 0.96] & 0.935 & 0.895 [0.84, 0.94] & 0.905 [0.81, 0.97] \\
+ &  & L1 logistic (lasso) & 0.945 [0.93, 0.96] & 0.940 & 0.906 [0.86, 0.95] & 0.927 [0.85, 0.98] \\
+ &  & Kernel SVM (RBF) & 0.941 [0.92, 0.95] & 0.937 & 0.898 [0.84, 0.94] & 0.896 [0.81, 0.95] \\
+ & speech (age/sex removed) & L2 logistic (ridge) & 0.890 [0.87, 0.92] & 0.883 & 0.896 [0.84, 0.94] & 0.808 [0.69, 0.89] \\
+ &  & L1 logistic (lasso) & 0.886 [0.86, 0.91] & 0.878 & 0.890 [0.83, 0.94] & 0.763 [0.63, 0.86] \\
+ &  & Kernel SVM (RBF) & 0.907 [0.89, 0.93] & 0.903 & 0.899 [0.85, 0.94] & 0.790 [0.67, 0.88] \\
+\midrule
+Parkinson's vs. healthy & speech & L2 logistic (ridge) & 0.902 [0.88, 0.93] & 0.897 & 0.913 [0.88, 0.94] & 0.690 [0.54, 0.82] \\
+ &  & L1 logistic (lasso) & 0.902 [0.88, 0.93] & 0.895 & 0.912 [0.88, 0.94] & 0.640 [0.49, 0.80] \\
+ &  & Kernel SVM (RBF) & 0.904 [0.88, 0.93] & 0.897 & 0.909 [0.88, 0.94] & 0.731 [0.58, 0.86] \\
+ & speech (age/sex removed) & L2 logistic (ridge) & 0.881 [0.85, 0.91] & 0.874 & 0.892 [0.85, 0.93] & 0.637 [0.47, 0.80] \\
+ &  & L1 logistic (lasso) & 0.880 [0.85, 0.91] & 0.866 & 0.891 [0.85, 0.92] & 0.614 [0.45, 0.78] \\
+ &  & Kernel SVM (RBF) & 0.901 [0.87, 0.93] & 0.896 & 0.913 [0.88, 0.94] & 0.685 [0.52, 0.82] \\
+\bottomrule
+\end{tabular}}
+\caption{AUC of the three techniques on identical folds. CV: 5x5-fold out-of-fold scores, all pairs. Matched: pairs recorded in the same month with ages within 5 years. Temporal: train before 2023, test 2023+. Mean fold AUC is the average of per-fold AUCs, which does not depend on score scale.}
+\label{tab:techniques}
+\end{table}
